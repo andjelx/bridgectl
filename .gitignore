@@ -1,0 +1,23 @@
+# intellij, vscode
+.idea/
+.vscode/
+venv
+
+# build artifacts, mac
+__pycache__/
+*.pyc
+.DS_Store
+.envrc
+
+# java
+*.class
+
+# App folders
+log/
+*.zip
+
+# Credentials
+*.pem
+
+vars.txt
+*.rpm

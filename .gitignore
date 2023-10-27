@@ -9,15 +9,9 @@ __pycache__/
 .DS_Store
 .envrc
 
-# java
-*.class
-
-# App folders
-log/
-*.zip
-
-# Credentials
-*.pem
 
 vars.txt
 *.rpm
+bridge_settings.yml
+bridge_settings.sh
+

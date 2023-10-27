@@ -11,7 +11,7 @@ RUN wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
 WORKDIR /home/tableau
 RUN mkdir -p /home/tableau/bridge_rpm
 
-COPY source.yml .
+COPY bridge_settings.yml .
 RUN git clone --depth 1 https://github.com/tableau/container_image_builder.git
 
 RUN sed -i "/\bDRIVERS=\b/d" container_image_builder/variables.sh

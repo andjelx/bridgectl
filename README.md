@@ -1,14 +1,10 @@
 
 ### Automation for Tableau Bridge on Linux Docker Containers
 
-### Author
-Joseph Fluckiger @josephflu on twitter and linkedin <br>
-Presented at Tableau Data Dev Days Nov, 2nd 2023 <br>
-https://www.tableau.com/learn/webinars/datadev-day-2023-11-02
-
 ### Terms of Use
 This repo contains source code and example files for creating Tableau bridge Linux containers.
 These scripts may be useful but are unsupported. Please get help from other users on the Tableau Community Forums.
+
 
 ### High-Level Steps
 1. Collect the required information: tableau cloud site_name, pool_id, PAT token

@@ -15,3 +15,10 @@ vars.txt
 bridge_settings.yml
 bridge_settings.sh
 
+# project
+*.env
+bridge_config.yml
+bridge_config.sh
+db_drivers/
+bridge_rpm/
+bridge_docker_basic/run_container1.sh

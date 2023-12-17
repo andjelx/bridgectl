@@ -6,6 +6,15 @@ This repo contains source code and example files for creating Tableau bridge Lin
 These scripts may be useful but are unsupported. Please get help from other users on the Tableau Community Forums.
 
 
+Automatic Setup
+An automated setup script has been deployed to github, which you can run with the following commands: 
+```
+curl -L https://github.com/tableau/bridgectl/releases/download/setup/bridgectl_setup.py --output bridgectl_setup.py
+python bridgectl_setup.py
+```
+Each time you start bridgectl, it will check for updates and give you the option to download and apply the latest updates.
+
+
 ### High-Level Steps
 1. Collect the required information: tableau cloud site_name, pool_id, PAT token
 2. Download Bridge Linux .rpm installer file

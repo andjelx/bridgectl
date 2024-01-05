@@ -43,4 +43,6 @@ Note that this utility is a prototype, not supported by Tableau, and may change 
 curl -L https://github.com/tableau/bridgectl/releases/download/setup/bridgectl_setup.py --output bridgectl_setup.py
 python bridgectl_setup.py
 ```
-Each time you start bridgectl, it will check for updates and give you the option to apply the latest updates.
+
+**Auto-updates:** 
+Each time BridgeCTL is started, it will check for updates and give the option to apply the latest updates.

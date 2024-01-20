@@ -1,6 +1,6 @@
 
 # Tableau BridgeCTL
-BridgeCTL is a utility for Tableau Bridge.  It is able to run, monitor, troubleshoot, and upgrade bridge agents.
+BridgeCTL is a Tableau Bridge utility to run, monitor, and troubleshoot bridge agents.
 
 Bridgectl is designed to run on Linux, Windows and Mac.
 
@@ -54,3 +54,7 @@ Home
 
 Analyze Logs
 ![BridgeCTL Logs](assets/logs.png)
+
+Command-line Interface
+
+![BridgeCTL CLI](assets/cli.png)

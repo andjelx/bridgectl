@@ -1,48 +1,56 @@
 
-### Automation for Tableau Bridge on Linux Docker Containers
+# Tableau BridgeCTL
+BridgeCTL is a utility for Tableau Bridge.  It is able to run, monitor, troubleshoot, and upgrade bridge agents.
 
-### Terms of Use
-This repo contains source code and example files for creating Tableau bridge Linux containers.
-These scripts may be useful but are unsupported. Please get help from other users on the Tableau Community Forums.
+Bridgectl is designed to run on Linux, Windows and Mac.
 
-
-### High-Level Steps
-1. Collect the required information: tableau cloud site_name, pool_id, PAT token
-2. Download Bridge Linux .rpm installer file
-3. Download Database drivers
-4. Create a Bridge container image
-5. Run the Bridge container
-
-
-### Prerequisites
-1. Docker
-2. Bash shell
-3. For Database Drivers, you'll need a bash script to download and install them in the container.
-
-
-### Project Contents:
-#### /build_docker_basic
-Basic example of building a Tableau Bridge Linux container image and running a container.
-1. download.sh - bash script to download Tableau Bridge Linux .rpm installer file and database drivers.
-2. Dockerfile - Definition for creating Tableau Bridge Linux container.
-3. start-bridgeclient.sh - script copied into container and used to start the bridge client when the container starts.
-4. build_image.sh - bash script for executing docker build to create a container image.
-5. run_container.sh - bash script for executing docker run to run a container.
-
-
-### Documentation for Tableau Bridge
-See official Tableau documentation for creating bridge containers on Linux
-https://help.tableau.com/current/online/en-us/to_bridge_linux_install.htm
-
-
-### BridgeCTL Setup
-Automatic Setup
-An automated setup script, which you can run with the following commands:
-Note that this utility is a prototype, not supported by Tableau, and may change in the future.
+### Setup
+BridgeCTL is easy to install. Just download and run the bridgectl_setup.py script using the following commands:
 ```
 curl -L https://github.com/tableau/bridgectl/releases/download/setup/bridgectl_setup.py --output bridgectl_setup.py
 python bridgectl_setup.py
 ```
 
-**Auto-updates:** 
-Each time BridgeCTL is started, it will check for updates and give the option to apply the latest updates.
+### Requirements
+- Python >= 3.10
+- For running Bridge on Linux containers: Docker Desktop
+
+#### Automatic updates
+Each time BridgeCTL starts, it will check for updates and give the option to download and apply the latest updates.
+
+### Features
+- Build a bridge docker container 
+  - This includes downloading the latest bridge rpm from tableau.com, user can specify to get latest or a specific version they want to use.
+  - Download and install database drivers, we use the container_image_builder utility to allow the user to select a set of database drivers from a dropdown list.
+- Run bridge containers
+  - user can easily select configuration settings from Tableau Cloud 
+  - user can easily spin up multiple local bridge-linux containers
+- Analyze bridge logs
+  - log viewer with ability to filter and sort logs
+  - Summarize logs using a GPT API, which makes it easier to identify and fix errors, and get an overall indication of the health and load of the bridge agent.
+- Manage bridge containers
+  - View configuration settings and resource utilization for local bridge containers
+  - Remove a bridge container
+  - Show summary metrics about the Bridge logs.
+- Reports
+  - Display Jobs Report similar to the jobs report in Tableau Cloud
+  - Display Bridge agent status similar to the bridge settings page in Tableau Cloud
+
+### Documentation for Tableau Bridge
+See official Tableau documentation for creating bridge containers on Linux
+https://help.tableau.com/current/online/en-us/to_bridge_linux_install.htm
+
+### Example scripts
+For example bash scripts for creating Bridge on Docker see the sub folder: /example_build_docker_basic
+
+### Terms of Use
+This repo contains utilities, source code example files for creating Tableau bridge Linux containers.
+These scripts may be useful but are unsupported. Please get help from other users on the Tableau Community Forums.
+
+<br><br><br>
+### User interface screenshots
+Home
+![BridgeCTL Home](assets/home2.png)
+
+Analyze Logs
+![BridgeCTL Logs](assets/logs.png)

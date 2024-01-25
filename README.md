@@ -1,18 +1,15 @@
 
 # Tableau BridgeCTL
-BridgeCTL is a Tableau Bridge utility to run, monitor, and troubleshoot bridge agents.
-
-Bridgectl is designed to run on Linux, Windows and Mac.
+BridgeCTL is a utility to run, monitor, and troubleshoot Tableau Bridge agents. BridgeCTL runs on Linux, Windows and Mac.
 
 ### Setup
 BridgeCTL is easy to install. Just download and run the bridgectl_setup.py script using the following commands:
 ```
-# 1) Download 
 curl -L https://github.com/tableau/bridgectl/releases/download/setup/bridgectl_setup.py --output bridgectl_setup.py
-# 2) Run
 python bridgectl_setup.py
 ```
-Note python 3.10 or greater is required. Please use the appropriate command to run the setup script, for example instead of "python" you may need to use "python3" or "python3.11" 
+Note python 3.10 or greater is required. Please use the appropriate command to run the setup script, for example instead of "python" you may need to use "python3" or "python3.11". 
+BridgeCTL The setup script will create a folder "bridgectl" and unzip the utility into this folder. 
 
 ### Requirements
 - Python >= 3.10

@@ -14,6 +14,7 @@ The BridgeCTL setup script will create a folder "bridgectl" and unzip files into
 ### Requirements
 - Python >= 3.10
 - For running Bridge on Linux containers: Docker Desktop
+- BridgeCTL can be installed on Windows, Linux or Mac (as long as python3 is installed)
 
 #### Automatic updates
 Each time BridgeCTL starts, it will check for updates and give the option to download and apply the latest updates.

@@ -1,6 +1,6 @@
 
 # Tableau BridgeCTL
-BridgeCTL is a utility to run, monitor, and troubleshoot Tableau Bridge agents. BridgeCTL runs on Linux, Windows and Mac.
+BridgeCTL is a utility to run, monitor, and troubleshoot Tableau Bridge agents. BridgeCTL runs on Linux, Windows or Mac.
 
 ### Setup
 BridgeCTL is easy to install. Just download and run the bridgectl_setup.py script using the following commands:
@@ -8,8 +8,8 @@ BridgeCTL is easy to install. Just download and run the bridgectl_setup.py scrip
 curl -L https://github.com/tableau/bridgectl/releases/download/setup/bridgectl_setup.py --output bridgectl_setup.py
 python bridgectl_setup.py
 ```
-Note python 3.10 or greater is required. Please use the appropriate command to run the setup script, for example instead of "python" you may need to use "python3" or "python3.11". 
-The BridgeCTL setup script will create a folder "bridgectl" and unzip files into this folder. 
+Note python 3.10 or greater is required. Please use the appropriate python command to run the setup script, for example instead of "python" you may need to use "python3" or "python3.11".
+The BridgeCTL setup script will create a folder "bridgectl" and unzip files into this folder. It will also create a shortcut function so you can use the command "bridgectl".
 
 ### Requirements
 - Python >= 3.10
@@ -17,25 +17,30 @@ The BridgeCTL setup script will create a folder "bridgectl" and unzip files into
 - BridgeCTL can be installed on Windows, Linux or Mac (as long as python3 is installed)
 
 #### Automatic updates
-Each time BridgeCTL starts, it will check for updates and give the option to download and apply the latest updates.
+Each time BridgeCTL starts, it will check for updates.
 
 ### Features
-- Build a bridge docker container 
-  - This includes downloading the latest bridge rpm from tableau.com, user can specify to get latest or a specific version they want to use.
+- Build Tableau Bridge docker container images
+  - This includes downloading the latest bridge rpm from tableau.com.
   - Download and install database drivers, we use the container_image_builder utility to allow the user to select a set of database drivers from a dropdown list.
+  - Follow best practices for building containers
 - Run bridge containers
-  - user can easily select configuration settings from Tableau Cloud 
-  - user can easily spin up multiple local bridge-linux containers
+  - User can easily select configuration settings from Tableau Cloud required to run bridge agents (pool_id, site_name, etc.)
+  - Spin up bridge agent containers in Docker
+  - Spin up bridge agent containers in Kubernetes
 - Analyze bridge logs
-  - log viewer with ability to filter and sort logs
-  - Summarize logs using a GPT API, which makes it easier to identify and fix errors, and get an overall indication of the health and load of the bridge agent.
+  - Log viewer with ability to filter and sort logs
+  - Analyze logs from local disk, local docker containers, or from kubernetes
 - Manage bridge containers
-  - View configuration settings and resource utilization for local bridge containers
-  - Remove a bridge container
-  - Show summary metrics about the Bridge logs.
+  - View configuration settings and resource utilization for local bridge containers in docker
+  - Delete a bridge container
+  - View current bridge agent activity 
+  - Show summary metrics about the Bridge logs
 - Reports
-  - Display Jobs Report similar to the jobs report in Tableau Cloud
-  - Display Bridge agent status similar to the bridge settings page in Tableau Cloud
+  - Display Jobs Report
+  - Display Bridge agent status
+- Beta Features
+  - Summarize logs using the GPT API, which makes it easier to identify and fix errors, and get a summary of activity on the agent.
 
 ### Documentation for Tableau Bridge
 See official Tableau documentation for creating bridge containers on Linux

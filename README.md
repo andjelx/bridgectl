@@ -18,7 +18,7 @@ The BridgeCTL setup script will create a folder "bridgectl" and unzip files into
 - BridgeCTL can be installed on Windows, Linux or Mac (as long as python3 is installed)
 
 #### Demo
-[Screenshare of getting started with BridgeCTL](https://www.youtube.com/watch?v=n_jMKC9t6hw)
+[Getting started with BridgeCTL](https://www.youtube.com/watch?v=n_jMKC9t6hw)
 
 ### Features
 - Build Tableau Bridge docker container images

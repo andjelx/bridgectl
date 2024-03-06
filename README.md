@@ -3,7 +3,7 @@
 BridgeCTL is a utility to run, monitor, and troubleshoot Tableau Bridge agents. 
 
 ### Introduction
-BridgeCTL will help you build your Tableau Bridge Linux container images including downloading and installing the right database drivers and bridge installer version. Then it will help you easily configure and run your bridge containers with the correct bridge settings (Tableau sitename, pool, PAT Token, etc.). And finally it will help you monitor the status and configuration of your running bridge agents, and to analyze your bridge agents logs. 
+BridgeCTL will help you build your Tableau Bridge Linux container images including downloading and installing the right database drivers and bridge installer version. Then it will help you easily configure and run your bridge containers with the correct bridge settings (Tableau sitename, pool, PAT Token, etc.). And finally it will help you monitor the status and configuration of your running bridge agents, and to analyze your bridge agents logs. Also, it can deploy bridge containers to Docker or Kubernetes.
 Note that BridgeCTL runs on Linux, Windows or Mac. 
 
 
@@ -30,23 +30,22 @@ The BridgeCTL setup script will create a folder "bridgectl" and unzip files into
   - This includes downloading the latest bridge rpm from tableau.com.
   - Download and install database drivers, we use the container_image_builder utility to allow the user to select a set of database drivers from a dropdown list.
   - Follow best practices for building containers
-- Run bridge containers
+- Run bridge containers in Docker
   - User can easily select configuration settings from Tableau Cloud required to run bridge agents (pool_id, site_name, etc.)
   - Spin up bridge agent containers in Docker
+- Manage bridge containers in Kubernetes
   - Spin up bridge agent containers in Kubernetes
+- Reports
+  - Display Jobs Report
+  - Display Bridge Agent Status
 - Analyze bridge logs
   - Log viewer with ability to filter and sort logs
   - Analyze logs from local disk, local docker containers, or from kubernetes
-- Manage bridge containers
-  - View configuration settings and resource utilization for local bridge containers in docker
+- Manage bridge containers in Docker or Kubernetes
+  - View configuration settings and resource utilization of bridge containers
   - Delete a bridge container
-  - View current bridge agent activity 
-  - Show summary metrics about the Bridge logs
-- Reports
-  - Display Jobs Report
-  - Display Bridge agent status
-- Beta Features
-  - Summarize logs using the GPT API, which makes it easier to identify and fix errors, and get a summary of activity on the agent.
+  - View current bridge agent activity (standard output logs)
+  - Show metrics about resource utilization
 
 ### Documentation for Tableau Bridge
 See official Tableau documentation for creating bridge containers on Linux

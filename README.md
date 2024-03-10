@@ -16,6 +16,8 @@ python bridgectl_setup.py
 Note python 3.10 or greater is required. Please use the appropriate python command to run the setup script, for example instead of "python" you may need to use "python3" or "python3.11".
 The BridgeCTL setup script will create a folder "bridgectl" and unzip files into this folder. It will also create a shortcut function so you can use the command "bridgectl". Each time BridgeCTL starts, it will check for updates.
 
+### Terms of Use
+This repo contains utilities, source code example files for creating Tableau bridge Linux containers. These scripts may be useful but are unsupported. Please get help from other users on the Tableau Community Forums.
 
 ### Requirements
 - Python >= 3.10
@@ -54,9 +56,8 @@ https://help.tableau.com/current/online/en-us/to_bridge_linux_install.htm
 ### Example scripts
 For example bash scripts for creating Bridge on Docker see the sub folder: /example_build_docker_basic
 
-### Terms of Use
-This repo contains utilities, source code example files for creating Tableau bridge Linux containers.
-These scripts may be useful but are unsupported. Please get help from other users on the Tableau Community Forums.
+### Release Notes
+[Release Notes](RELEASE_NOTES.md)
 
 <br><br><br>
 ### User interface screenshots

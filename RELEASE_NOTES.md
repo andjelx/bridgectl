@@ -3,9 +3,14 @@
 ### Version 2.1.47
 - Add feedback survey link to Home page.
 
+### Version 2.1.42
+- Add cli menu command to configure systemctl service startup on Linux
+
+### Version 2.1.41
+- Bugfix: fix error when no jobs in job report
+ 
 ### Version 2.1.20
 - Add Kubernetes and AWS Elastic Container Registry (ECR) support
-- 
 
 ### Version 2.0.124
 - Improve Windows support for BridgeCTL. Fix bug: duplicate PATH entries.

@@ -6,7 +6,6 @@ BridgeCTL is a utility to run, monitor, and troubleshoot Tableau Bridge agents.
 BridgeCTL will help you build your Tableau Bridge Linux container images including downloading and installing the right database drivers and bridge installer version. Then it will help you easily configure and run your bridge containers with the correct bridge settings (Tableau sitename, pool, PAT Token, etc.). And finally it will help you monitor the status and configuration of your running bridge agents, and to analyze your bridge agents logs. Also, it can deploy bridge containers to Docker or Kubernetes.
 Note that BridgeCTL runs on Linux, Windows or Mac. 
 
-
 ### Setup
 BridgeCTL is easy to install. Just download and run the bridgectl_setup.py script using the following commands:
 ```
@@ -15,9 +14,6 @@ python bridgectl_setup.py
 ```
 Note python 3.10 or greater is required. Please use the appropriate python command to run the setup script, for example instead of "python" you may need to use "python3" or "python3.11".
 The BridgeCTL setup script will create a folder "bridgectl" and unzip files into this folder. It will also create a shortcut function so you can use the command "bridgectl". Each time BridgeCTL starts, it will check for updates.
-
-### Terms of Use
-This repo contains utilities, source code example files for creating Tableau bridge Linux containers. These scripts may be useful but are unsupported. Please get help from other users on the Tableau Community Forums.
 
 ### Requirements
 - Python >= 3.10
@@ -48,6 +44,9 @@ This repo contains utilities, source code example files for creating Tableau bri
   - Delete a bridge container
   - View current bridge agent activity (standard output logs)
   - Show metrics about resource utilization
+
+### Terms of Use
+This repo contains utilities and source code example files for creating and running Tableau bridge Linux containers. These scripts may be useful but are unsupported. Please get help from other users on the Tableau Community Forums.
 
 ### Documentation for Tableau Bridge
 See official Tableau documentation for creating bridge containers on Linux

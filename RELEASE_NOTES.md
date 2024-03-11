@@ -1,5 +1,8 @@
 # Release notes
 
+### Version 2.1.48
+- Add jobs detail checkbox which will include job luid and other details about the bridge job.
+
 ### Version 2.1.47
 - Add feedback survey link to Home page.
 

@@ -1,18 +1,19 @@
 # Release notes
 
-### Version 2.1.48
+### Version 2.1.53 (Mar 20, 2024)
+- Add a button to check for updates from Settings Page in the UI
+- Add uninstall command to help menu
+- Additional Kubernetes integration features
+  
+### Version 2.1.48 (Mar 19,2024)
 - Add jobs detail checkbox which will include job luid and other details about the bridge job.
-
-### Version 2.1.47
 - Add feedback survey link to Home page.
 
-### Version 2.1.42
+### Version 2.1.41 (Mar 1, 2024)
 - Add cli menu command to configure systemctl service startup on Linux
-
-### Version 2.1.41
 - Bugfix: fix error when no jobs in job report
  
-### Version 2.1.20
+### Version 2.1.20 (Feb 19, 2024)
 - Add Kubernetes and AWS Elastic Container Registry (ECR) support
 
 ### Version 2.0.124

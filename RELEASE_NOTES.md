@@ -81,7 +81,7 @@ executed in start-bridgeclient.sh:
 - Download rpm file from devbuilds web
 - Manage local bridge containers (display commands to kill container or to view logs of container)
 
-### Version 1.0.20
+### Version 1.0.20 (June 10, 2023)
 - Build local bridge image with RPM file
 - Browse to Tableau Cloud Bridge Settings
 - Edit settings in text editor

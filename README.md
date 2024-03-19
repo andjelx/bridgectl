@@ -11,15 +11,8 @@ BridgeCTL will help you build your Tableau Bridge Linux container images includi
 ### Setup
 BridgeCTL is easy to install. Just download and run the bridgectl_setup.py script using the following commands:
 
-**Mac and Linux**
 ```
-curl -L https://github.com/tableau/bridgectl/releases/download/setup/bridgectl_setup.py --output bridgectl_setup.py
-python bridgectl_setup.py
-```
-
-**Windows**
-```
-curl https://github.com/tableau/bridgectl/releases/download/setup/bridgectl_setup.py -O bridgectl_setup.py
+curl -OL https://github.com/tableau/bridgectl/releases/download/setup/bridgectl_setup.py
 python bridgectl_setup.py
 ```
 
@@ -30,7 +23,7 @@ The BridgeCTL setup script will create a folder "bridgectl" and unzip files into
 ### Requirements
 - Python >= 3.10
 - For running Bridge on Linux containers: Docker Desktop
-- BridgeCTL can be installed on Windows, Linux or Mac (as long as python3 is installed)
+- BridgeCTL can be installed on Windows, Linux or Mac (as long as the correct version of Python is installed)
 
 ### Demo
 [Getting started with BridgeCTL](https://www.youtube.com/watch?v=n_jMKC9t6hw)

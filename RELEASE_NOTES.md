@@ -1,5 +1,10 @@
 # Release notes
 
+### Version 2.1.60 (Mar 23, 2024)
+- Settings page - Bulk Import PAT Token YAML
+- Fixes and improvements for Private ECR support
+- Improvements to running bridge containers in K8s
+
 ### Version 2.1.53 (Mar 20, 2024)
 - Add a button to check for updates from Settings Page in the UI
 - Add uninstall command to help menu

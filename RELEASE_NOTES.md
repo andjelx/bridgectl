@@ -1,5 +1,10 @@
 # Release notes
 
+### Version 2.1.68 (Mar 28, 2024)
+- Improvements to bridgectl_setup script
+- Example bash scripts for running bridge on linux from the terminal
+- Switch from Public ECR to private ECR support
+
 ### Version 2.1.61 (Mar 23, 2024)
 - Settings page - Bulk Import PAT Token YAML
 - Fixes and improvements for Private ECR support

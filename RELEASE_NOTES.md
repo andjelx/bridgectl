@@ -1,6 +1,6 @@
 # Release notes
 
-### Version 2.1.68 (Mar 28, 2024)
+### Version 2.1.72 (Mar 28, 2024)
 - Improvements to bridgectl_setup script
 - Example bash scripts for running bridge on linux from the terminal
 - Switch from Public ECR to private ECR support

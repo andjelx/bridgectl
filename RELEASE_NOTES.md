@@ -1,5 +1,9 @@
 # Release notes
 
+### Version 2.1.__ (___)
+- Improve instructions for building and running bridge containers, and error messages for connecting to ECR.
+
+
 ### Version 2.1.72 (Mar 28, 2024)
 - Improvements to bridgectl_setup script
 - Example bash scripts for running bridge on linux from the terminal

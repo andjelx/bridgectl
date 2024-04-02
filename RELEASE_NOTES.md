@@ -1,8 +1,10 @@
 # Release notes
 
-### Version 2.1.__ (___)
-- Improve instructions for building and running bridge containers, and error messages for connecting to ECR.
+### Version 2.1.90 April 2, 2024
+- Improved validation when adding PAT tokens, make sure it has the right permissions (SiteAdministrator).
 
+### Version 2.1.88 March 31, 2024
+- Improve instructions for building and running bridge containers, and error messages for connecting to ECR.
 
 ### Version 2.1.72 (Mar 28, 2024)
 - Improvements to bridgectl_setup script

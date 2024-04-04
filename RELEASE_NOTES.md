@@ -1,14 +1,14 @@
 # Release notes
 
-### Version 2.1.93 April 3, 2024
+### Version 2.1.93 (April 3, 2024)
 - Added support for adding bridge agents to the Default Pool
 - Additional validation improvements when running bridge agents.
 - Improved instructions for Settings - Bulk import PAT tokens.
 
-### Version 2.1.90 April 2, 2024
+### Version 2.1.90 (April 2, 2024)
 - Improved validation when adding PAT tokens, make sure it has the right permissions (SiteAdministrator).
 
-### Version 2.1.88 March 31, 2024
+### Version 2.1.88 (March 31, 2024)
 - Improve instructions for building and running bridge containers, and error messages for connecting to ECR.
 
 ### Version 2.1.72 (Mar 28, 2024)

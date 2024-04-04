@@ -1,5 +1,9 @@
 # Release notes
 
+### Version 2.1.__ April __, 2024
+- Added support for adding bridge agents to the Default Pool
+- Additional validation improvements when running bridge agents.
+
 ### Version 2.1.90 April 2, 2024
 - Improved validation when adding PAT tokens, make sure it has the right permissions (SiteAdministrator).
 

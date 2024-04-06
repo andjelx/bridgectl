@@ -1,7 +1,8 @@
 # Release notes
 
 ### Version 2.1.98 (April 6, 2024)
-- Add support for downloading latest Tableau Bridge RPM from tableau.com in addition to devbuilds.
+- Add support for downloading latest Tableau Bridge RPM from tableau.com
+- Fix log paths for release version of bridge
 
 ### Version 2.1.93 (April 3, 2024)
 - Added support for adding bridge agents to the Default Pool

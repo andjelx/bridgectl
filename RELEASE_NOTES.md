@@ -1,5 +1,9 @@
 # Release notes
 
+### Version 2.1.108 (April 10, 2024)
+- BridgeCTL now supports building bridge images on Arm processors even though tableau bridge rpm uses x86.
+- On run bridge container, there is now an option to show a complete bash script which can be copied/pasted to a remove machine to run a bridge agent without having to install bridgectl on that remote machine. (This requires pushing the built image to ECR)
+
 ### Version 2.1.98 (April 6, 2024)
 - Add support for downloading latest Tableau Bridge RPM from tableau.com
 - Fix log paths for release version of bridge

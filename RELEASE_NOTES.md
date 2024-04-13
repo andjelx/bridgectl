@@ -120,5 +120,6 @@ executed in start-bridgeclient.sh:
 ### Version 2.1.next (April __, 2024)
 - Addition of the `--push_image`command-line parameter to push the last locally built container image to AWS ECR Container Registry.
 - Add support for Minerva Bridge RPM. (Minerva is the new bridge query engine which will be released sometime later this year.)
-- Add check that when running on Windows, the docker OsType is correctly set to linux, not windows
+- Add check that when running on Windows, the docker OsType is correctly set to linux, not windows.
+- On Docker - Manage page, The "Detail: button will include a list of installed JDBC and ODBC database drivers.
 

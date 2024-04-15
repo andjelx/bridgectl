@@ -124,6 +124,7 @@ executed in start-bridgeclient.sh:
 
 ### Version Next (April __, 2024)
 - Ability to show script for push image to ECR
+- Improvements to 'show script' on 'Docker - Run Bridge' page.
 
 
 

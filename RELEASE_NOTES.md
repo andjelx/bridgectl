@@ -120,5 +120,10 @@ executed in start-bridgeclient.sh:
 - Build local bridge image with RPM file
 - Browse to Tableau Cloud Bridge Settings
 - Edit settings in text editor
+- 
+
+### Version Next (April __, 2024)
+- Ability to show script for push image to ECR
+
 
 

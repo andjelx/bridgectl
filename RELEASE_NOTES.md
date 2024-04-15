@@ -1,6 +1,11 @@
 # Release notes
 
- 
+### Version 2.1.118 (April 14, 2024)
+- Addition of the `--push_image`command-line parameter to push the last locally built container image to AWS ECR Container Registry.
+- Add support for Minerva Bridge RPM. (Minerva is the new bridge query engine which will be released sometime later this year.)
+- Add check that when running on Windows, the docker OsType is correctly set to linux, not windows.
+- On Docker - Manage page, The "Detail: button will include a list of installed JDBC and ODBC database drivers.
+
 ### Version 2.1.108 (April 10, 2024)
 - BridgeCTL now supports building bridge images on Arm processors even though tableau bridge rpm uses x86.
 - On run bridge container, there is now an option to show a complete bash script which can be copied/pasted to a remove machine to run a bridge agent without having to install bridgectl on that remote machine. (This requires pushing the built image to ECR)
@@ -116,10 +121,4 @@ executed in start-bridgeclient.sh:
 - Browse to Tableau Cloud Bridge Settings
 - Edit settings in text editor
 
-
-### Version 2.1.next (April __, 2024)
-- Addition of the `--push_image`command-line parameter to push the last locally built container image to AWS ECR Container Registry.
-- Add support for Minerva Bridge RPM. (Minerva is the new bridge query engine which will be released sometime later this year.)
-- Add check that when running on Windows, the docker OsType is correctly set to linux, not windows.
-- On Docker - Manage page, The "Detail: button will include a list of installed JDBC and ODBC database drivers.
 

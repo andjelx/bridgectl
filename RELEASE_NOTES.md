@@ -1,5 +1,10 @@
 # Release notes
 
+### Version 2.1.122 (April 16, 2024)
+- Ability to show script for push image to ECR.
+- Improvements to 'show script' on 'Docker - Run Bridge' page.
+- add parameter `--init_settings` to batch mode.
+
 ### Version 2.1.118 (April 14, 2024)
 - Addition of the `--push_image`command-line parameter to push the last locally built container image to AWS ECR Container Registry.
 - Add support for Minerva Bridge RPM. (Minerva is the new bridge query engine which will be released sometime later this year.)
@@ -120,11 +125,9 @@ executed in start-bridgeclient.sh:
 - Build local bridge image with RPM file
 - Browse to Tableau Cloud Bridge Settings
 - Edit settings in text editor
-- 
 
-### Version Next (April __, 2024)
-- Ability to show script for push image to ECR
-- Improvements to 'show script' on 'Docker - Run Bridge' page.
+
+
 
 
 

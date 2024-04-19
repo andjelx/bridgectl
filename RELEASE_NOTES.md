@@ -129,5 +129,5 @@ executed in start-bridgeclient.sh:
 ### Version 2.1.next (April __, 2023)
 - Improvementts to devbuilds downloads
 - Bugfix on publish bridge image to ECR.
-- 
+- Add web-only mode which will generate and show in the user's browser a Dockerfile and the other scripts needed to build a tableau bridge container image, without executing the build.
 

@@ -126,8 +126,8 @@ executed in start-bridgeclient.sh:
 - Browse to Tableau Cloud Bridge Settings
 - Edit settings in text editor
 
-
-
-
-
+### Version 2.1.next (April __, 2023)
+- Improvementts to devbuilds downloads
+- Bugfix on publish bridge image to ECR.
+- 
 

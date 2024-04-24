@@ -1,5 +1,15 @@
 # Release notes
 
+
+### Version 2.1.135 (April 24, 2024)
+- Fix mysql drivers not working because of environment variables (modified Dockerfile)
+
+### Version 2.1.134 (April 23, 2024)
+- Improvements to devbuilds downloads
+- Bugfix on publish bridge image to ECR.
+- Add web-only mode which will generate and show in the user's browser a Dockerfile and the other scripts needed to build a tableau bridge container image, without executing the build.
+- bugfix for installing drivers on windows
+
 ### Version 2.1.122 (April 16, 2024)
 - Ability to show script for push image to ECR.
 - Improvements to 'show script' on 'Docker - Run Bridge' page.

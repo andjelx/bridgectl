@@ -9,8 +9,7 @@ BridgeCTL is a utility for Tableau Bridge Linux Containers.
 BridgeCTL will help you build your Tableau Bridge Linux container images including downloading and 
 installing the right database drivers and bridge .rpm installer. Then it will help you easily configure and 
 run your bridge containers in Docker or Kubernetes with the correct bridge settings (Tableau sitename, pool, PAT Token, etc.). 
-It will help you monitor the status and configuration of your running bridge agents in Docker or Kubernetes. 
-It will also help to analyze your bridge agent container logs. 
+It will help you monitor the status and configuration of your running bridge agents and to also help analyze your bridge logs. 
 BridgeCTL can be installed on Linux, Windows or Mac.
 
 ### Setup
@@ -32,6 +31,9 @@ Each time BridgeCTL starts, it will check for updates.
 - Python >= 3.10
 - For running Bridge on Linux containers: Docker Desktop
 - BridgeCTL can be installed on Windows, Linux or Mac (as long as the correct version of Python is installed)
+
+Optional Requirements
+- If you would like to run bridge agents containers in Kubernetes you will need access to AWS ECR (Container Regisry) and a Kubernetes cluster. You will also need valid aws cli credentials to access the AWS ECR and a valid kubeconfig to access the k8s cluster.
 
 ### Demo
 [Getting started with BridgeCTL](https://www.youtube.com/watch?v=n_jMKC9t6hw)

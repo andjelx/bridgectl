@@ -1,6 +1,6 @@
 
 # Tableau BridgeCTL
-BridgeCTL is a utility for Tableau Bridge for Linux. 
+BridgeCTL is a utility for Tableau Bridge Linux Containers.
 
 [![Community Supported](https://img.shields.io/badge/Support%20Level-Community%20Supported-457387.svg)](https://www.tableau.com/support-levels-it-and-developer-tools)
 [![GitHub](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://raw.githubusercontent.com/Tableau/TabPy/master/LICENSE)
@@ -44,8 +44,6 @@ Each time BridgeCTL starts, it will check for updates.
 - Run bridge containers in Docker
   - User can easily select configuration settings from Tableau Cloud required to run bridge agents (pool_id, site_name, etc.)
   - Spin up bridge agent containers in Docker
-- Manage bridge containers in Kubernetes
-  - Spin up bridge agent containers in Kubernetes
 - Reports
   - Display Jobs Report
   - Display Bridge Agent Status
@@ -55,10 +53,9 @@ Each time BridgeCTL starts, it will check for updates.
 - Run bridge containers in Kubernetes
   - After importing your kubeconfig file, you can spin up bridge agent containers in a Kubernetes cluster
 - Manage bridge containers in Docker or Kubernetes
-  - View configuration settings and resource utilization of bridge containers
-  - Delete a bridge container
+  - View configuration settings of bridge containers or delete bridge containers
   - View current bridge agent activity (standard output logs)
-  - Show metrics about resource utilization
+  - Show snapshot metrics about resource utilization
 
 ### Terms of Use
 This repo contains utilities and source code example files for creating and running Tableau bridge Linux containers. These scripts may be useful but are unsupported. Please get help from other users on the Tableau Community Forums.

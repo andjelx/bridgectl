@@ -35,9 +35,6 @@ Each time BridgeCTL starts, it will check for updates.
 Optional Requirements
 - If you would like to run bridge agents containers in Kubernetes you will need access to AWS ECR (Container Regisry) and a Kubernetes cluster. You will also need valid aws cli credentials to access the AWS ECR and a valid kubeconfig to access the k8s cluster.
 
-### Demo
-[Getting started with BridgeCTL](https://www.youtube.com/watch?v=n_jMKC9t6hw)
-
 ### Features
 - Build Tableau Bridge docker container images
   - This includes downloading the latest bridge rpm from tableau.com.

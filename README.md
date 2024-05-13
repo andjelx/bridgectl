@@ -15,10 +15,11 @@ BridgeCTL can be installed on Linux, Windows or Mac.
 ### Setup
 BridgeCTL is easy to install. Just download and run the bridgectl_setup.py script using the following commands:
 
-```
+~~~
 curl -OL https://github.com/tableau/bridgectl/releases/download/setup/bridgectl_setup.py
 python bridgectl_setup.py
-```
+~~~
+
 
 ### 
 Note python 3.10 or greater is required. Please use the appropriate python command on your machine to run the setup script, for example instead of "python" you may need to use "python3" or "python3.11". 

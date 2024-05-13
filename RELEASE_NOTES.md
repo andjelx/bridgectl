@@ -1,6 +1,11 @@
 # Release notes
 
 
+### Version 2.1.166 (May 15, 2024)
+- Improvements to driver_download and driver_install scripts.
+- Ability to install bridgectl from a zip file (bridgectl_download.zip)
+- Improvements to the Web only page which shows bridge image creation scripts in the browser for instructional purposes. to run bridgectl in this mode simply run `streamlit run Web.py` from the bridgectl directory.
+
 ### Version 2.1.135 (April 24, 2024)
 - Fix mysql drivers not working because of environment variables (modified Dockerfile)
 

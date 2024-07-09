@@ -5,7 +5,7 @@
 - New! The "Example Scripts" page has been added which shows bash scripts for building and running bridge linux containers.
 - Bug fix: PAT tokens with spaces are not allowed because these cause issues with extract refreshes. Also, since bridgectl uses the PAT token name to name the docker container invalid characters like spaces are not allowed.
 - bridgectl_setup.py creates a python virtual environment called "tabenv" in the bridgectl folder, and installs pip libraries here instead of in the system python.
-- 
+- bugfix: Fix the cloudera_impala driver install issue.
 
 ### Version 2.1.166 (May 15, 2024)
 - Improvements to driver_download and driver_install scripts.

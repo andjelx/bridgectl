@@ -8,6 +8,7 @@ On the Docker - Run Bridge page there is now an option to "Show Run script". Wit
 - bug fixes for Save settings
 - Update to bridgectl_setup.py to allow installation as root user (it just gives a warning). Note that installing in the root directory /root is not allowed, but you can simply create a directory and install it in that subdirectory.
 - bugfix: fixed support for tableau cloud sitename with dashes.
+- bugfix: prevent PAT tokens in BridgeCTL with spaces or other invalid characters now allowed in docker container names.
 
 ### Version 2.2.23 (Jul 9, 2024)
 - New! The "Example Scripts" page has been added which shows bash scripts for building and running bridge linux containers.

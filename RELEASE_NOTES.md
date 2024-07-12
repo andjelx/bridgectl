@@ -1,6 +1,14 @@
 # Release notes
 
 
+### Version 2.2.29 (Jul 12, 2024)
+- New Publish Images page. This feature makes it easier to publish images up to AWS ECR or pull images down from AWS ECR.
+- Show Run Script":
+On the Docker - Run Bridge page there is now an option to "Show Run script". With this feature you can generate a bash script for running the bridge container and pulling the image from AWS ECR. This means that you can install BridgeCTL on one machine and build your image and publish to AWS Elastic Container Registry. Then just run this generated "run bridge container" bash script on each of the target machines where you'd like to run the bridge container. As long as those target machines have docker and access to AWS ECR, then you don't need to install bridgectl on those target bridge agent machines or rebuild your image. The "run bridge container" script contains all the parameters needed including the PAT token ID and value, the poolID, site URL, etc. Remember create a separate PAT token for each bridge agent.
+- bug fixes for Save settings
+- Update to bridgectl_setup.py to allow installation as root user (it just gives a warning). Note that installing in the root directory /root is not allowed, but you can simply create a directory and install it in that subdirectory.
+- bugfix: fixed support for tableau cloud sitename with dashes.
+
 ### Version 2.2.23 (Jul 9, 2024)
 - New! The "Example Scripts" page has been added which shows bash scripts for building and running bridge linux containers.
 - Bug fix: PAT tokens with spaces are not allowed because these cause issues with extract refreshes. Also, since bridgectl uses the PAT token name to name the docker container invalid characters like spaces are not allowed.

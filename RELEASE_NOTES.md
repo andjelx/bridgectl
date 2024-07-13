@@ -2,7 +2,7 @@
 
 
 ### Version 2.2.33 (Jul 13, 2024)
-- update BridgeCTL to use latest Tableau Bridge RPM version 20242.24.0613.1930. See https://www.tableau.com/support/releases/bridge
+- update BridgeCTL to use latest Tableau Bridge RPM version 20242.24.0613.1930 which was released on July 1
 - bugfix: fix push image to AWS ECR on Windows.
 
 ### Version 2.2.29 (Jul 12, 2024)

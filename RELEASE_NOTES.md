@@ -1,6 +1,10 @@
 # Release notes
 
 
+### Version 2.2.33 (Jul 13, 2024)
+- update BridgeCTL to use latest Tableau Bridge RPM version 20242.24.0613.1930. See https://www.tableau.com/support/releases/bridge
+- bugfix: fix push image to AWS ECR on Windows.
+
 ### Version 2.2.29 (Jul 12, 2024)
 - New Publish Images page. This feature makes it easier to publish images up to AWS ECR or pull images down from AWS ECR.
 - Show Run Script":

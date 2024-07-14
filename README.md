@@ -81,11 +81,14 @@ python bridgectl_setup.py
 <br><br><br>
 ### User interface screenshots
 Home
-![BridgeCTL Home](assets/home2.png)
+![Home](assets/home3.png)
+
+Command-line Interface
+![CLI](assets/cli2.png)__
+
+Build Bridge Container Images
+![Build](assets/build.png)
 
 Analyze Logs
 ![BridgeCTL Logs](assets/logs.png)
 
-Command-line Interface
-
-![BridgeCTL CLI](assets/cli.png)

@@ -1,5 +1,7 @@
 # Release notes
 
+### Version 2.2.next (July __, 2024)
+- Add Features tab on Settings page to toggle on/off some pages.
 
 ### Version 2.2.33 (Jul 13, 2024)
 - update BridgeCTL to use latest Tableau Bridge RPM version 20242.24.0613.1930 which was released on July 1

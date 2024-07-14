@@ -23,18 +23,17 @@ BridgeCTL is easy to install. Just download and run the bridgectl_setup.py scrip
 
 ### 
 Note python 3.10 or greater is required. Please use the appropriate python command on your machine to run the setup script, for example instead of "python" you may need to use "python3" or "python3.11". 
-You can also install bridgectl in a python virtual environment.
-The BridgeCTL setup script will create a folder "bridgectl" and unzip files into this folder. 
-It will then install several pip libraries and then it will create a shortcut function so you can use the global command "bridgectl". 
+The BridgeCTL setup script will create a folder "bridgectl" and unzip files into this folder, it will create a python virtual environment named tabenv. 
+It will then install several pip libraries in the python virtual environment then it will create a shortcut function "bridgectl" so that you can start bridgectl using that command globally. 
 Each time BridgeCTL starts, it will check for updates.
 
 ### Requirements
 - Python >= 3.10
-- For running Bridge on Linux containers: Docker Desktop
-- BridgeCTL can be installed on Windows, Linux or Mac (as long as the correct version of Python is installed)
+- Docker Desktop
+- BridgeCTL works on Windows, Linux or Mac
 
 Optional Requirements
-- If you would like to run bridge agents containers in Kubernetes you will need access to AWS ECR (Container Regisry) and a Kubernetes cluster. You will also need valid aws cli credentials to access the AWS ECR and a valid kubeconfig to access the k8s cluster.
+- If you would like to run bridge agents containers in Kubernetes you will need access to AWS Elastic Container Registry and a Kubernetes cluster.
 
 ### Demo
 [Getting started with BridgeCTL](https://www.youtube.com/watch?v=n_jMKC9t6hw)
@@ -81,9 +80,11 @@ python bridgectl_setup.py
 <br><br><br>
 ### User interface screenshots
 Home
+
 ![Home](assets/home3.png)
 
 Command-line Interface
+
 ![CLI](assets/cli2.png)__
 
 Build Bridge Container Images

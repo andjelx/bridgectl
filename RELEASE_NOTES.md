@@ -3,6 +3,7 @@
 ### Version 2.2.44 (July 23, 2024)
 - Add Features tab on Settings page to toggle on/off some pages.
 - Fix bug: folder 'buildimg/drivers' doesn't exist when importing drivers on the build image page.
+- Improve build image name. Example image name: "tableau_bridge_rhel9_20242.24.0613.1930"
 
 ### Version 2.2.33 (Jul 13, 2024)
 - update BridgeCTL to use latest Tableau Bridge RPM version 20242.24.0613.1930 which was released on July 1

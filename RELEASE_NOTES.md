@@ -1,5 +1,14 @@
 # Release notes
 
+
+### Version 2.2.50 (August 8, 2024)
+- On Logging page, ability to download log files from k8s pods and docker containers.
+- Ability to customize the TabBridgeClientConfiguration.txt use by bridge to customize how it runs.
+- Monitoring feature enabled. 
+A background job will check regularly if any of the bridge agents are not connected by calling the Tableau Cloud APIs. If at least one bridge agent is not status=connected, a slack notification will be sent.
+- Improved support for multiple sites. Ability to add PAT tokens from multiple Tableau Cloud sites and then when running bridge agents you can select which site to target.
+- improved documentation on customizing driver caddy driver definition files.
+
 ### Version 2.2.44 (July 23, 2024)
 - Add Features tab on Settings page to toggle on/off some pages.
 - Fix bug: folder 'buildimg/drivers' doesn't exist when importing drivers on the build image page.

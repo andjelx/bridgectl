@@ -1,6 +1,10 @@
 # Release notes
 
 
+### Version 2.2.57 (August 20, 2024)
+- New menu
+- New beta feature: Auto-scale bridge pods in kubernetes.
+
 ### Version 2.2.50 (August 8, 2024)
 - On Logging page, ability to download log files from k8s pods and docker containers.
 - Ability to customize the TabBridgeClientConfiguration.txt use by bridge to customize how it runs.

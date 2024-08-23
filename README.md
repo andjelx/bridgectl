@@ -68,11 +68,6 @@ This repo contains utilities and source code example files for creating and runn
 See official Tableau documentation for creating bridge containers on Linux
 https://help.tableau.com/current/online/en-us/to_bridge_linux_install.htm
 
-### Old Install instructions
-~~
-curl -OL https://github.com/tableau/bridgectl/releases/download/setup/bridgectl_setup.py
-python bridgectl_setup.py
-~~
 
 ### Release Notes
 [Release Notes](RELEASE_NOTES.md)
@@ -81,7 +76,7 @@ python bridgectl_setup.py
 ### User interface screenshots
 Home
 
-![Home](assets/home3.png)
+![Home](assets/home4.png)
 
 Command-line Interface
 
@@ -92,4 +87,10 @@ Build Bridge Container Images
 
 Analyze Logs
 ![BridgeCTL Logs](assets/logs.png)
+
+Monitor Bridge Agent Health
+![Monitor Bridge](assets/monitor_screenshot2.png)
+
+Autoscale Bridge Pods in Kubernetes
+![Monitor Bridge](assets/autoscale.png)
 

@@ -1,6 +1,6 @@
 
 # Tableau BridgeCTL
-BridgeCTL is a utility for Tableau Bridge Linux Containers.
+BridgeCTL is a local command-line utility for Tableau Bridge. It solves many of the pain points faced by Bridge administrators.
 
 [![Community Supported](https://img.shields.io/badge/Support%20Level-Community%20Supported-457387.svg)](https://www.tableau.com/support-levels-it-and-developer-tools)
 [![GitHub](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://raw.githubusercontent.com/Tableau/TabPy/master/LICENSE)
@@ -21,33 +21,27 @@ BridgeCTL is easy to install. Just download and run the bridgectl_setup.py scrip
 3) run `python bridgectl_setup.py`
 
 
-### 
-Note python 3.10 or greater is required. Please use the appropriate python command on your machine to run the setup script, for example instead of "python" you may need to use "python3" or "python3.11". 
-The BridgeCTL setup script will create a folder "bridgectl" and unzip files into this folder, it will create a python virtual environment named tabenv. 
-It will then install several pip libraries in the python virtual environment then it will create a shortcut function "bridgectl" so that you can start bridgectl using that command globally. 
-Each time BridgeCTL starts, it will check for updates.
 
 ### Requirements
 - Python >= 3.10
 - Docker Desktop
 - BridgeCTL works on Windows, Linux or Mac
 
+Note python 3.10 or greater is required. Please use the appropriate python command on your machine to run the setup script, for example instead of "python" you may need to use "python3" or "python3.11". 
+The BridgeCTL setup script will create a folder "bridgectl" and a python virtual environment named tabenv. It will create a shortcut function `bridgectl` so that you can conveniently use that global command from the terminal. 
+
 Optional Requirements
 - If you would like to run bridge agents containers in Kubernetes you will need access to AWS Elastic Container Registry and a Kubernetes cluster.
 
-### Demo
-[Getting started with BridgeCTL](https://www.youtube.com/watch?v=n_jMKC9t6hw)
+### Quickstart Demo
+![Home](assets/bridgectl_quickstart2.gif)
 
-[Test Bridge Feature](https://youtu.be/sksYcqdAG0o)
 
 ### Features
 - Build Tableau Bridge docker container images
-  - This includes downloading the latest bridge rpm from tableau.com.
-  - Download and install database drivers, we use the container_image_builder utility to allow the user to select a set of database drivers from a dropdown list.
-  - Follow best practices for building containers
+  - Download and install the bridge rpm and selected database drivers in the image.
+  - Follow best practices for building containers.
 - Run bridge containers in Docker
-  - User can easily select configuration settings from Tableau Cloud required to run bridge agents (pool_id, site_name, etc.)
-  - Spin up bridge agent containers in Docker
 - Reports
   - Display Jobs Report
   - Display Bridge Agent Status
@@ -65,8 +59,7 @@ Optional Requirements
 This repo contains utilities and source code example files for creating and running Tableau bridge Linux containers. These scripts may be useful but are unsupported. Please get help from other users on the Tableau Community Forums.
 
 ### Documentation for Tableau Bridge
-See official Tableau documentation for creating bridge containers on Linux
-https://help.tableau.com/current/online/en-us/to_bridge_linux_install.htm
+See [official Tableau documentation](https://help.tableau.com/current/online/en-us/to_bridge_linux_install.htm) for creating bridge containers on Linux
 
 
 ### Release Notes
@@ -94,3 +87,5 @@ Monitor Bridge Agent Health
 Autoscale Bridge Pods in Kubernetes
 ![Monitor Bridge](assets/autoscale.png)
 
+Example Dockerfile Scripts
+![Example Scripts](assets/examples3.png)

@@ -3,7 +3,7 @@
 BridgeCTL is a local command-line utility for Tableau Bridge. It solves many of the pain points faced by Bridge administrators.
 
 [![Community Supported](https://img.shields.io/badge/Support%20Level-Community%20Supported-457387.svg)](https://www.tableau.com/support-levels-it-and-developer-tools)
-[![GitHub](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://raw.githubusercontent.com/Tableau/TabPy/master/LICENSE)
+[![GitHub](https://img.shields.io/badge/license-AP2-brightgreen.svg)](https://github.com/tableau/bridgectl/blob/main/LICENSE.txt)
 
 ### Introduction
 BridgeCTL will help you build your Tableau Bridge Linux container images including downloading and 

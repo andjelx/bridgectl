@@ -56,8 +56,9 @@ Optional Requirements
   - View current bridge agent activity (standard output logs)
   - Show snapshot metrics about resource utilization
 
-### Terms of Use
-This repo contains utilities and source code example files for creating and running Tableau bridge Linux containers. These scripts may be useful but are unsupported. Please get help from other users on the Tableau Community Forums.
+
+### Supportability & Help
+BridgeCTL is officially provided to the community as defined [here](https://www.tableau.com/support/itsupport). BridgeCTL is a community-supported project with a great deal of helpful documentaion in this wiki. There are also knowledgeable people in the Tableau Community Forums. In addition, questions can be posted in the Tableau #DataDev Slack workspace in #general channel.
 
 ### Documentation for Tableau Bridge
 See [official Tableau documentation](https://help.tableau.com/current/online/en-us/to_bridge_linux_install.htm) for creating bridge containers on Linux

@@ -1,9 +1,14 @@
 # Release notes
 
 ### Version 2.3.29 (Oct 25, 2024)
-- Build bridge base image with only drivers, but no bridge_rpm.
+- Build bridge base image with only drivers, but no bridge_rpm
 - Configure Login Password for BridgeCTL User Interface
 - Improvements to monitoring Bridge feature
+- BridgeCTL now has the ability to easily switch between multiple sites from the Settings page
+
+### Version 2.3.4 (Sep 24, 2024)
+- Updates for Minerva RPM.
+- BridgeCTL gives you the option to select "use minerva". Which will use the run_bridge.sh to start the minerva bridge agent at container start time, instead of the old TabBridgeClientWorker script.
 
 ### Version 2.2.84 (Sept 16, 2024)
 - Improvements to Add/Remove PAT Tokens Dialog

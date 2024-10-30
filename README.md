@@ -21,7 +21,7 @@ curl -OL https://github.com/tableau/bridgectl/releases/download/setup/bridgectl_
 python bridgectl_setup.py
 ```
 
-### Requirements
+Requirements
 - Python >= 3.10
 - Docker Desktop
 - BridgeCTL works on Windows, Linux or Mac
@@ -31,8 +31,7 @@ The BridgeCTL setup script will create a folder "bridgectl" in the current direc
 
 [Detailed Installation Instructions](../../wiki/Installation)
 
-Optional Requirements
-- If you would like to run bridge agents containers in Kubernetes you will need access to AWS Elastic Container Registry and a Kubernetes cluster.
+Optional Requirement:  If you would like to run bridge agents containers in Kubernetes you will need access to AWS Elastic Container Registry and a Kubernetes cluster.
 
 ### Quickstart Demo Video
 ![Home](assets/bridgectl_quickstart2.gif)

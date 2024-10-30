@@ -1,0 +1,13 @@
+[server]
+address = "localhost"
+port = 8505
+runOnSave = true
+[browser]
+gatherUsageStats = false
+[client]
+toolbarMode = "minimal" #top right streamlit toolbar.
+[runner]
+magicEnabled = false
+#fastReruns = true #try this?
+[theme]
+base="light"

@@ -58,7 +58,7 @@ Optional Requirements
 
 
 ### Supportability & Help
-BridgeCTL is officially provided to the community as defined [here](https://www.tableau.com/support/itsupport). BridgeCTL is a community-supported project with a great deal of helpful documentaion in this wiki. There are also knowledgeable people in the Tableau Community Forums. In addition, questions can be posted in the Tableau #DataDev Slack workspace in #general channel.
+BridgeCTL is provided as Community-Supported as defined [here](https://www.tableau.com/support/itsupport). BridgeCTL has a great deal of helpful documentaion in this wiki. There are also knowledgeable people in the Tableau Community Forums. In addition, questions can be posted in the Tableau #DataDev Slack workspace in #general channel.
 
 ### Documentation for Tableau Bridge
 See [official Tableau documentation](https://help.tableau.com/current/online/en-us/to_bridge_linux_install.htm) for creating bridge containers on Linux

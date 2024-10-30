@@ -65,7 +65,7 @@ See [official Tableau documentation](https://help.tableau.com/current/online/en-
 
 
 ### Release Notes
-[Release Notes]([docs/RELEASE_NOTES.md](../../wiki/Release_Notes))
+[Release Notes](../../wiki/Release_Notes)
 
 <br><br><br>
 ### User interface screenshots

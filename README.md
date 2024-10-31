@@ -1,6 +1,6 @@
 
 # Tableau BridgeCTL
-BridgeCTL is a local command-line utility for Tableau Bridge that addresses many of the pain points faced by Bridge administrators.
+A command-line utility to build, run and monitor your Tableau Bridge Agents in Containers.
 
 [![Community Supported](https://img.shields.io/badge/Support%20Level-Community%20Supported-457387.svg)](https://www.tableau.com/support-levels-it-and-developer-tools)
 [![GitHub](https://img.shields.io/badge/license-AP2-brightgreen.svg)](https://github.com/tableau/bridgectl/blob/main/LICENSE.txt)
